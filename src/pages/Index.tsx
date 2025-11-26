@@ -118,6 +118,28 @@ const Index = () => {
           </Button>
         </div>
 
+        {/* Alias Mercado Pago */}
+<div 
+  className="bg-card/80 backdrop-blur-md p-6 md:p-8 mb-8 md:mb-12 shadow-soft border-secondary/30 text-center animate-fade-in" 
+  style={{ animationDelay: '1.1s' }}
+>
+  <h3 className="text-xl md:text-2xl font-cursive text-primary mb-2">
+    Regalito digital 🎁
+  </h3>
+  
+  <p className="text-sm md:text-base text-foreground/80 mb-4 px-4">
+    Si querés dejarle un detalle a la cumpleañera, aquí está su alias:
+  </p>
+
+  <button
+    onClick={() => navigator.clipboard.writeText("Celesteegauna.mp")}
+    className="bg-primary text-primary-foreground px-6 py-3 rounded-full shadow-glow hover:bg-primary/90 transition-all hover:scale-105"
+  >
+    Copiar alias: <span className="font-semibold">celesteegauna.mp</span>
+  </button>
+</div>
+
+
         {/* Countdown */}
         <div className="mb-8 md:mb-12 animate-fade-in" style={{ animationDelay: '1.2s' }}>
           <Countdown />
