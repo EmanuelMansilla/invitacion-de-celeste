@@ -117,6 +117,32 @@ const Index = () => {
           </a>
           </Button>
         </div>
+        {/* Dirección del evento */}
+<div
+  className="bg-muted/50 backdrop-blur-md p-6 md:p-8 mb-8 md:mb-12 border-2 border-primary/20 text-center animate-fade-in"
+  style={{ animationDelay: "1.05s" }}
+>
+  <h3 className="text-xl md:text-2xl font-cursive text-primary mb-2">
+    Dirección del evento 📍
+  </h3>
+
+  <p className="text-sm md:text-base text-foreground/80 px-4 mb-4">
+    Nos vemos en:
+  </p>
+
+  <p className="text-lg md:text-xl font-semibold text-primary mb-4">
+    Valentin Alsina 1333 entre las calles Einstein & iglesias
+  </p>
+
+  <a
+    href="https://maps.app.goo.gl/nS2s2sBWfpMJZwFQ8"
+    target="_blank"
+    className="inline-block bg-primary text-primary-foreground px-6 py-3 rounded-full shadow-glow hover:bg-primary/90 transition-all hover:scale-105"
+  >
+    Ver en Google Maps
+  </a>
+</div>
+
 
         {/* Alias Mercado Pago */}
 <div 
